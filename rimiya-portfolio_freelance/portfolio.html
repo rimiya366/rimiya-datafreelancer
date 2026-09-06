@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Projects | Rimiya Rimshi K M | Freelance Data Analyst</title>
+
+  <meta name="description"
+    content="Power BI, Excel and SQL dashboard case studies by Rimiya Rimshi K M — retail inventory, marketing analytics and e-commerce sales analytics projects.">
+
+  <meta name="keywords"
+    content="Power BI Dashboard, Data Analytics Projects, Retail Analytics, Marketing Analytics, E-commerce Analytics, Business Intelligence, Data Visualization">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/business-theme.css" rel="stylesheet">
+
+  <style>
+
+    body { font-family: "Inter", sans-serif; }
+
+    :root {
+      --navy: #10243e;
+      --teal: #0f6e5c;
+      --teal-dark: #0c5a4b;
+      --teal-tint: #eaf3f1;
+      --text: #4a5568;
+      --text-light: #7a8797;
+      --border: #e4e9ee;
+      --bg-alt: #f5f7f9;
+    }
+
+    .section-title h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .section-title p { color: var(--text-light); }
+
+    .eyebrow {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    /* Case study cards (same pattern as homepage) */
+
+    .case-study-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 40px;
+      transition: 0.3s;
+    }
+
+    .case-study-card:hover {
+      box-shadow: 0 18px 40px rgba(16, 36, 62, 0.10);
+    }
+
+    .case-study-img {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .case-study-body {
+      padding: 26px 28px 28px;
+    }
+
+    .case-study-category {
+      display: inline-block;
+      background: var(--teal-tint);
+      color: var(--teal);
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 5px 11px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .case-study-body h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 21px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+
+    .case-study-body .stage-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--navy);
+      margin: 14px 0 6px;
+      display: block;
+    }
+
+    .case-study-body p {
+      font-size: 13.5px;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 16px 0 20px;
+    }
+
+    .tech-stack span {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      color: var(--navy);
+      font-size: 11px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .project-btn-github {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      background: var(--navy);
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .project-btn-github:hover {
+      background: var(--teal);
+      color: #fff;
+    }
+
+    /* Secondary grid */
+
+    .mini-project-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 22px;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .mini-project-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-3px);
+    }
+
+    .mini-project-card .badge-cat {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .mini-project-card h5 {
+      font-size: 15.5px;
+      margin-bottom: 8px;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    .mini-project-card p {
+      color: var(--text-light);
+      font-size: 12.5px;
+      margin: 0 0 14px;
+      line-height: 1.7;
+    }
+
+    .mini-project-card a {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--navy);
+      text-decoration: none;
+    }
+
+    .mini-project-card a:hover { color: var(--teal); }
+
+    .github-cta {
+      margin-top: 20px;
+      padding: 40px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--bg-alt);
+      text-align: center;
+    }
+
+    .github-cta i { font-size: 34px; color: var(--navy); margin-bottom: 12px; }
+    .github-cta h3 { font-family: "Poppins", sans-serif; font-weight: 700; color: var(--navy); }
+    .github-cta p { color: var(--text-light); font-size: 14px; margin-bottom: 22px; }
+
+    .github-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--navy);
+      color: #fff;
+      padding: 12px 22px;
+      border-radius: 7px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 13px;
+      transition: 0.3s;
+    }
+
+    .github-button:hover { background: var(--teal); color: #fff; }
+
+  </style>
+
+</head>
+
+<body class="portfolio-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">RIMIYA.</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Projects</a></li>
+          <li><a href="index.html#how-it-works">How It Works</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Featured Dashboard Projects</h1>
+              <p class="mb-0">
+                Independent analytics case studies showing how I approach real
+                business data — built to demonstrate capability, not
+                commercial client results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Projects</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+    <!-- End Page Title -->
+
+
+    <!-- Case Studies -->
+    <section id="case-studies" class="section">
+      <div class="container">
+
+        <!-- CASE STUDY 1: RETAIL INVENTORY -->
+        <div class="case-study-card" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/retail-inventory-overview.png" class="case-study-img" alt="Executive Inventory Overview dashboard showing total revenue, units sold and inventory status">
+            </div>
+            <div class="col-lg-6">
+              <div class="case-study-body">
+                <span class="case-study-category">Retail Analytics</span>
+                <h3>Retail Inventory Optimization Dashboard</h3>
+
+                <span class="stage-label">01 — Business Challenge</span>
+                <p>Retail businesses need to balance product availability with inventory efficiency. Too much inventory ties up capital, while too little can lead to missed sales.</p>
+
+                <span class="stage-label">02 — Data</span>
+                <p>Sales, inventory and demand-forecast data across regions, categories and stores.</p>
+
+                <span class="stage-label">03 — Analysis</span>
+                <p>Analyzed product performance, sales patterns and inventory indicators to identify overstocked, optimal and at-risk stock levels.</p>
+
+                <span class="stage-label">06 — Business Value</span>
+                <p>Gives a retail business a single view to plan purchasing, reduce overstocking and avoid stockouts — with $494.97M in revenue and 10M units sold tracked, 0 stockout occurrences, and 93.89% demand-forecast accuracy in this dataset.</p>
+
+                <div class="tech-stack">
+                  <span>Power BI</span><span>DAX</span><span>Power Query</span><span>Data Analysis</span>
+                </div>
+
+                <a href="https://github.com/rimiya366/Retail-Inventory-Optimization-PowerBI" target="_blank" rel="noopener noreferrer" class="project-btn-github">
+                  <i class="bi bi-github"></i> View Project on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/retail-demand-forecasting.png" class="case-study-img" alt="Demand forecasting and supply chain optimization dashboard">
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/retail-store-optimization.png" class="case-study-img" alt="Store and stock optimization operational action list dashboard">
+            </div>
+          </div>
+        </div>
+
+        <!-- CASE STUDY 2: MARKETING -->
+        <div class="case-study-card" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6 order-lg-2">
+              <img src="assets/img/dashboards/marketing-campaign-insights.png" class="case-study-img" alt="Marketing campaign and customer insights dashboard">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="case-study-body">
+                <span class="case-study-category">Marketing Analytics</span>
+                <h3>Marketing Campaign & Sales Analytics Dashboard</h3>
+
+                <span class="stage-label">01 — Business Challenge</span>
+                <p>Businesses invest in marketing campaigns but often struggle to connect campaign performance with leads, sales and revenue.</p>
+
+                <span class="stage-label">02 — Data</span>
+                <p>Customer segmentation, spending, campaign engagement and channel response data.</p>
+
+                <span class="stage-label">03 — Analysis</span>
+                <p>Explored customer value segments, RFM segments and response rates by channel and campaign priority.</p>
+
+                <span class="stage-label">06 — Business Value</span>
+                <p>Shows which channels and customer segments respond best — this dataset covers 2K customers and $1M in total spending, with response rates as high as 82% for highly engaged customers.</p>
+
+                <div class="tech-stack">
+                  <span>Power BI</span><span>Data Visualization</span><span>Business Analytics</span>
+                </div>
+
+                <a href="https://github.com/rimiya366/Marketing-Campaign-Analytics" target="_blank" rel="noopener noreferrer" class="project-btn-github">
+                  <i class="bi bi-github"></i> View Project on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CASE STUDY 3: E-COMMERCE -->
+        <div class="case-study-card" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/ecommerce-sales-analytics.png" class="case-study-img" alt="E-commerce sales analytics dashboard showing revenue, orders and top customers">
+            </div>
+            <div class="col-lg-6">
+              <div class="case-study-body">
+                <span class="case-study-category">E-commerce Analytics</span>
+                <h3>E-Commerce Sales Analytics Dashboard</h3>
+
+                <span class="stage-label">01 — Business Challenge</span>
+                <p>Online sellers need a fast way to see where revenue is coming from — by customer, region and order status — without digging through transaction tables.</p>
+
+                <span class="stage-label">02 — Data</span>
+                <p>Order-level transactional data including customer, state, order month and order status.</p>
+
+                <span class="stage-label">03 — Analysis</span>
+                <p>Analyzed monthly revenue trends, top states by order volume and top customers by revenue.</p>
+
+                <span class="stage-label">06 — Business Value</span>
+                <p>Gives a business a quick read on sales performance — this dataset tracks $592.92K in revenue across 4K orders and 4K customers, with an average order value of $160.25.</p>
+
+                <div class="tech-stack">
+                  <span>Python</span><span>Pandas</span><span>Power BI</span><span>Data Visualization</span>
+                </div>
+
+                <a href="https://github.com/rimiya366/ecommerce-sales-analytics-dashboard" target="_blank" rel="noopener noreferrer" class="project-btn-github">
+                  <i class="bi bi-github"></i> View Project on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Additional Analytics Projects -->
+    <section id="more-projects" class="section section-alt" style="background: var(--bg-alt);">
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">More Work</span>
+          <h2>Additional Analytics Projects</h2>
+          <p class="mx-auto">More Power BI, Tableau and Python analytics projects available on GitHub.</p>
+        </div>
+
+        <div class="row g-3">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="mini-project-card">
+              <span class="badge-cat">Power BI</span>
+              <h5>HR Analytics Dashboard</h5>
+              <p>Interactive Tableau dashboard analyzing workforce data, employee attrition and key HR patterns.</p>
+              <a href="https://github.com/rimiya366/HR-Analytics-Dashboard-Tableau-Project-" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="mini-project-card">
+              <span class="badge-cat">Power BI</span>
+              <h5>Road Accident Analysis</h5>
+              <p>Interactive Power BI dashboard analyzing accident trends, casualties, vehicle types and road safety patterns.</p>
+              <a href="https://github.com/rimiya366/road-accident-analysis-powerbi" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="mini-project-card">
+              <span class="badge-cat">Retail Analytics</span>
+              <h5>Blinkit Sales Analysis</h5>
+              <p>Retail sales analysis and Power BI dashboard.</p>
+              <a href="https://github.com/rimiya366?tab=repositories" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="mini-project-card">
+              <span class="badge-cat">Sales Analytics</span>
+              <h5>Walmart Sales Analysis</h5>
+              <p>Sales performance analysis across regions and categories.</p>
+              <a href="https://github.com/rimiya366?tab=repositories" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="mini-project-card">
+              <span class="badge-cat">Customer Analytics</span>
+              <h5>Bank Churn Analysis</h5>
+              <p>Customer churn analysis and Streamlit experimentation.</p>
+              <a href="https://github.com/rimiya366?tab=repositories" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="github-cta" data-aos="fade-up">
+          <i class="bi bi-github"></i>
+          <h3>Explore More on GitHub</h3>
+          <p>See the complete collection of analytics, Python, SQL and Power BI projects.</p>
+          <a href="https://github.com/rimiya366?tab=repositories" target="_blank" rel="noopener noreferrer" class="github-button">
+            <i class="bi bi-github"></i> View All GitHub Repositories
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Rimiya Rimshi K M</h3>
+      <p>Freelance Data Analyst helping small businesses turn sales, customer and operational data into clear dashboards and actionable insights.</p>
+
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/rimiya366" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/rimiya-rimshi-k-m" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:rimiyarimshi2022@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span>
+          <strong class="px-1 sitename">Rimiya Rimshi K M</strong>
+          <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

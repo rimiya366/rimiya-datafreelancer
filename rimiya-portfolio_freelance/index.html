@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rimiya Rimshi K M | Freelance Data Analyst | Power BI & Business Analytics</title>
+
+  <meta name="description"
+    content="Freelance Data Analyst in Kannur, Kerala specializing in Power BI dashboards, Excel reporting, sales analytics, marketing analytics and business intelligence.">
+
+  <meta name="keywords"
+    content="Freelance Data Analyst, Data Analyst Kannur, Power BI Freelancer Kerala, Power BI Dashboard, Excel Data Analysis, Business Analytics, Sales Analytics, Marketing Analytics, E-commerce Analytics, Data Visualization, Business Intelligence, Dashboard Development">
+
+  <!-- Favicon -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =========================================================
+       BUSINESS PORTFOLIO — CUSTOM STYLES (light, professional)
+  ========================================================== -->
+
+  <style>
+
+    /* =========================================================
+       GLOBAL
+    ========================================================== */
+
+    :root {
+      --navy: #10243e;
+      --navy-light: #16324f;
+      --teal: #0f6e5c;
+      --teal-dark: #0c5a4b;
+      --teal-tint: #eaf3f1;
+      --text: #4a5568;
+      --text-light: #7a8797;
+      --bg: #ffffff;
+      --bg-alt: #f5f7f9;
+      --border: #e4e9ee;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Inter", sans-serif;
+    }
+
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-alt {
+      background: var(--bg-alt);
+    }
+
+    .section-title {
+      margin-bottom: 50px;
+    }
+
+    .section-title .eyebrow {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .section-title h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 34px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--navy);
+    }
+
+    .section-title p {
+      color: var(--text-light);
+      max-width: 680px;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+
+    /* =========================================================
+       NAVIGATION
+    ========================================================== */
+
+    .header {
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 1px 0 rgba(16, 36, 62, 0.08);
+    }
+
+    .sitename {
+      font-weight: 800 !important;
+      letter-spacing: 1px;
+      color: var(--navy) !important;
+    }
+
+    .navmenu a {
+      font-weight: 500;
+      color: var(--navy) !important;
+    }
+
+    .navmenu a:hover,
+    .navmenu a.active {
+      color: var(--teal) !important;
+    }
+
+
+    /* =========================================================
+       HERO
+    ========================================================== */
+
+    #hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      background: var(--bg-alt);
+      padding-top: 90px;
+    }
+
+    #hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(16, 36, 62, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(16, 36, 62, 0.035) 1px, transparent 1px);
+      background-size: 46px 46px;
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+    }
+
+    .hero-label {
+      color: var(--teal);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: clamp(38px, 5.5vw, 62px);
+      line-height: 1.15;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: var(--navy);
+    }
+
+    .hero-role {
+      font-size: clamp(17px, 2.2vw, 20px);
+      font-weight: 600;
+      margin-bottom: 18px;
+      color: var(--teal);
+    }
+
+    .hero-description {
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 700px;
+      margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+    }
+
+    .btn-primary-custom {
+      background: var(--teal);
+      color: #fff !important;
+      border: 1px solid var(--teal);
+      padding: 13px 26px;
+      border-radius: 7px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .btn-primary-custom:hover {
+      background: var(--teal-dark);
+      border-color: var(--teal-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-custom {
+      background: transparent;
+      color: var(--navy) !important;
+      border: 1px solid #c7d0da;
+      padding: 13px 26px;
+      border-radius: 7px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .btn-outline-custom:hover {
+      border-color: var(--teal);
+      color: var(--teal) !important;
+      transform: translateY(-2px);
+    }
+
+    .hero-trustline {
+      color: var(--text-light);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .social-links-custom {
+      display: flex;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .social-links-custom a {
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--navy);
+      font-size: 17px;
+      transition: 0.3s;
+      text-decoration: none;
+      background: #fff;
+    }
+
+    .social-links-custom a:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+      transform: translateY(-3px);
+    }
+
+
+    /* =========================================================
+       BUSINESS PROBLEMS
+    ========================================================== */
+
+    .problem-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 26px 24px;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .problem-card:hover {
+      border-color: var(--teal);
+      box-shadow: 0 12px 30px rgba(16, 36, 62, 0.07);
+      transform: translateY(-4px);
+    }
+
+    .problem-card i {
+      color: var(--teal);
+      font-size: 26px;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .problem-card h4 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .problem-card p {
+      color: var(--text-light);
+      font-size: 13.5px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .problem-closer {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-top: 40px;
+    }
+
+
+    /* =========================================================
+       SERVICES
+    ========================================================== */
+
+    .service-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 30px 25px;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--teal);
+      box-shadow: 0 14px 32px rgba(16, 36, 62, 0.08);
+    }
+
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 8px;
+      background: var(--teal-tint);
+      color: var(--teal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 18px;
+    }
+
+    .service-card h4 {
+      font-size: 17px;
+      margin-bottom: 10px;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    .service-card p {
+      color: var(--text-light);
+      font-size: 13.5px;
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    .services-cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+
+    /* =========================================================
+       FEATURED PROJECTS / CASE STUDIES
+    ========================================================== */
+
+    .case-study-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 40px;
+      transition: 0.3s;
+    }
+
+    .case-study-card:hover {
+      box-shadow: 0 18px 40px rgba(16, 36, 62, 0.10);
+    }
+
+    .case-study-img {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid var(--border);
+      cursor: zoom-in;
+    }
+
+    .case-study-body {
+      padding: 26px 28px 28px;
+    }
+
+    .case-study-category {
+      display: inline-block;
+      background: var(--teal-tint);
+      color: var(--teal);
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 5px 11px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .case-study-body h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 21px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+
+    .case-study-body .problem-line {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .case-study-body .insight-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--navy);
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .case-study-body p.insight-text {
+      font-size: 13.5px;
+      color: var(--text-light);
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 20px;
+    }
+
+    .tech-stack span {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      color: var(--navy);
+      font-size: 11px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .project-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .project-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+
+    .project-btn-github {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .project-btn-github:hover {
+      background: var(--teal);
+      color: #fff;
+    }
+
+    /* Secondary (smaller) project grid */
+
+    .mini-project-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .mini-project-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-3px);
+    }
+
+    .mini-project-card .badge-cat {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .mini-project-card h5 {
+      font-size: 15px;
+      margin-bottom: 7px;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    .mini-project-card p {
+      color: var(--text-light);
+      font-size: 12.5px;
+      margin: 0 0 12px;
+      line-height: 1.7;
+    }
+
+    .mini-project-card a {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--navy);
+      text-decoration: none;
+    }
+
+    .mini-project-card a:hover {
+      color: var(--teal);
+    }
+
+
+    /* =========================================================
+       WHO I HELP
+    ========================================================== */
+
+    .who-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 26px 22px;
+      height: 100%;
+      text-align: left;
+      transition: 0.3s;
+    }
+
+    .who-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-4px);
+    }
+
+    .who-card i {
+      color: var(--teal);
+      font-size: 24px;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .who-card h5 {
+      font-size: 15.5px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .who-card p {
+      color: var(--text-light);
+      font-size: 13px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .who-note {
+      text-align: center;
+      color: var(--text-light);
+      font-size: 12.5px;
+      font-style: italic;
+      margin-top: 30px;
+    }
+
+
+    /* =========================================================
+       HOW IT WORKS
+    ========================================================== */
+
+    .process-step {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .process-number {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+      margin: 0 auto 16px;
+    }
+
+    .process-step h5 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .process-step p {
+      color: var(--text-light);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .process-cta {
+      text-align: center;
+      margin-top: 45px;
+    }
+
+    .process-cta p {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+
+
+    /* =========================================================
+       WHY WORK WITH ME
+    ========================================================== */
+
+    .why-card {
+      display: flex;
+      gap: 16px;
+      padding: 6px 0;
+    }
+
+    .why-card i {
+      color: var(--teal);
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .why-card h5 {
+      font-size: 15.5px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+
+    .why-card p {
+      color: var(--text-light);
+      font-size: 13.5px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+
+    /* =========================================================
+       TOOLS
+    ========================================================== */
+
+    .tool-pill {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--navy);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 9px 18px;
+      border-radius: 20px;
+      margin: 5px;
+    }
+
+    .tool-pill.secondary {
+      color: var(--text-light);
+      background: var(--bg-alt);
+    }
+
+    .tools-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 12px;
+    }
+
+
+    /* =========================================================
+       ABOUT TEASER
+    ========================================================== */
+
+    .about-teaser-card {
+      background: var(--navy);
+      color: #dbe4ec;
+      border-radius: 12px;
+      padding: 45px;
+    }
+
+    .about-teaser-card h3 {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .about-teaser-card p {
+      line-height: 1.9;
+      font-size: 14.5px;
+      margin-bottom: 22px;
+    }
+
+
+    /* =========================================================
+       FAQ
+    ========================================================== */
+
+    .accordion-button {
+      font-weight: 600;
+      color: var(--navy);
+      background: #fff;
+    }
+
+    .accordion-button:not(.collapsed) {
+      color: var(--teal);
+      background: var(--teal-tint);
+    }
+
+    .accordion-button:focus {
+      box-shadow: none;
+      border-color: var(--border);
+    }
+
+    .accordion-item {
+      border: 1px solid var(--border);
+      margin-bottom: 10px;
+      border-radius: 8px !important;
+      overflow: hidden;
+    }
+
+
+    /* =========================================================
+       FINAL CTA
+    ========================================================== */
+
+    .final-cta {
+      background: var(--navy);
+      border-radius: 14px;
+      padding: 55px 40px;
+      text-align: center;
+    }
+
+    .final-cta h3 {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .final-cta p {
+      color: #b9c6d4;
+      font-size: 15px;
+      margin-bottom: 28px;
+    }
+
+    .final-cta-buttons {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-cta-primary {
+      background: var(--teal);
+      color: #fff;
+      padding: 13px 26px;
+      border-radius: 7px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-cta-primary:hover {
+      background: var(--teal-dark);
+      color: #fff;
+    }
+
+    .btn-cta-outline {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 13px 26px;
+      border-radius: 7px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-cta-outline:hover {
+      border-color: #fff;
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================== */
+
+    .footer {
+      background: var(--navy);
+      border-top: none;
+    }
+
+    .footer .sitename {
+      color: #fff !important;
+    }
+
+    .footer p,
+    .footer .copyright span,
+    .footer .credits {
+      color: #b9c6d4 !important;
+    }
+
+    .footer .social-links-custom a {
+      border-color: rgba(255,255,255,0.15);
+      color: #fff;
+      background: transparent;
+    }
+
+    .footer .social-links-custom a:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+
+    .footer .credits a {
+      color: #dbe4ec !important;
+    }
+
+
+    /* =========================================================
+       MOBILE
+    ========================================================== */
+
+    @media (max-width: 768px) {
+
+      .section {
+        padding: 60px 0;
+      }
+
+      .section-title h2 {
+        font-size: 27px;
+      }
+
+      .case-study-body {
+        padding: 22px;
+      }
+
+      .final-cta {
+        padding: 40px 22px;
+      }
+
+      .about-teaser-card {
+        padding: 30px 22px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body class="index-page">
+
+
+  <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+
+    <div class="container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+        <h1 class="sitename">RIMIYA.</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Projects</a></li>
+          <li><a href="index.html#how-it-works">How It Works</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main class="main">
+
+
+    <!-- =========================================================
+         HERO
+    ========================================================== -->
+
+    <section id="hero">
+
+      <div class="container hero-content">
+
+        <div class="hero-label">Freelance Data Analyst &middot; Kannur, Kerala &middot; Local &amp; Remote Projects</div>
+
+        <h1>Turn Your Business Data Into Clear Decisions</h1>
+
+        <div class="hero-role">Power BI | Excel | SQL | Business Analytics</div>
+
+        <p class="hero-description">
+          I help small businesses turn sales, customer, marketing and operational
+          data into simple dashboards and actionable insights using Power BI,
+          Excel, SQL and Python.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn-primary-custom">Start a Project</a>
+          <a href="portfolio.html" class="btn-outline-custom">View My Work</a>
+        </div>
+
+        <div class="hero-trustline">Power BI &bull; Excel &bull; SQL &bull; Python</div>
+
+        <div class="social-links-custom">
+
+          <a href="https://www.linkedin.com/in/rimiya-rimshi-k-m/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/rimiya366" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+
+          <a href="mailto:rimiyarimshi2022@gmail.com" aria-label="Email">
+            <i class="bi bi-envelope"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         BUSINESS PROBLEMS
+    ========================================================== -->
+
+    <section id="business-problems" class="section">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">The Problem</span>
+          <h2>Is Your Business Data Hard to Understand?</h2>
+          <p class="mx-auto">Most small businesses have plenty of data — the trouble is turning it into something you can actually use.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="problem-card">
+              <i class="bi bi-file-earmark-excel"></i>
+              <h4>Too Much Excel Work</h4>
+              <p>Spending hours preparing reports manually every week?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="problem-card">
+              <i class="bi bi-graph-down"></i>
+              <h4>Unclear Sales Performance</h4>
+              <p>Not sure which products, categories or periods are performing best?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="problem-card">
+              <i class="bi bi-megaphone"></i>
+              <h4>Marketing Data Everywhere</h4>
+              <p>Struggling to understand leads, campaigns and conversions?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="problem-card">
+              <i class="bi bi-boxes"></i>
+              <h4>Inventory Challenges</h4>
+              <p>Not sure what is selling, what is slow-moving and where inventory needs attention?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="problem-card">
+              <i class="bi bi-grid-3x3-gap"></i>
+              <h4>No Clear Business Dashboard</h4>
+              <p>Important numbers scattered across spreadsheets and different systems?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="problem-card">
+              <i class="bi bi-clipboard-data"></i>
+              <h4>Reports Without Insights</h4>
+              <p>You have data, but not the answers you need to make decisions?</p>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="problem-closer" data-aos="fade-up">
+          I turn these problems into simple, visual and decision-ready dashboards.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SERVICES
+    ========================================================== -->
+
+    <section id="services" class="section section-alt">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">Services</span>
+          <h2>How I Can Help Your Business</h2>
+          <p class="mx-auto">Practical analytics services built around the questions that matter to your business.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-bar-chart-line"></i></div>
+              <h4>Power BI Dashboards</h4>
+              <p>Interactive dashboards that bring your most important business KPIs into one clear view — sales, revenue, inventory and management dashboards.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-graph-up-arrow"></i></div>
+              <h4>Sales & Business Analytics</h4>
+              <p>Understand sales trends, product performance, customer behavior and business growth.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-file-earmark-spreadsheet"></i></div>
+              <h4>Excel Data Analysis & Reporting</h4>
+              <p>Clean, organize and transform Excel data into useful reports and decision-ready summaries.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-megaphone"></i></div>
+              <h4>Marketing Analytics</h4>
+              <p>Track campaign performance, leads, conversions, spending and marketing KPIs.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-cart-check"></i></div>
+              <h4>E-commerce Analytics</h4>
+              <p>Analyze orders, revenue, products, customers and sales trends to understand what is driving your business.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-calendar-check"></i></div>
+              <h4>Monthly Business Reporting</h4>
+              <p>Turn your monthly business data into a clear management dashboard and performance report.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services-cta" data-aos="fade-up">
+          <a href="services.html" class="btn-outline-custom">See Full Service Details</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FEATURED DASHBOARD PROJECTS (CASE STUDIES)
+    ========================================================== -->
+
+    <section id="projects" class="section">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">Selected Work</span>
+          <h2>Featured Dashboard Projects</h2>
+          <p class="mx-auto">
+            Independent analytics projects that show how I approach real business data —
+            built to demonstrate capability, not commercial client results.
+          </p>
+        </div>
+
+        <!-- CASE STUDY 1: RETAIL INVENTORY -->
+        <div class="case-study-card" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/retail-inventory-overview.png" class="case-study-img" alt="Executive Inventory Overview dashboard showing total revenue, units sold and inventory status">
+            </div>
+            <div class="col-lg-6">
+              <div class="case-study-body">
+                <span class="case-study-category">Retail Analytics</span>
+                <h3>Retail Inventory Optimization Dashboard</h3>
+                <p class="problem-line">
+                  Retail businesses need to balance product availability with inventory
+                  efficiency. Too much inventory ties up capital, while too little can
+                  lead to missed sales.
+                </p>
+                <span class="insight-label">What I Built</span>
+                <p class="insight-text">
+                  An interactive Power BI dashboard analyzing inventory levels, product
+                  performance and sales patterns to support better inventory decisions —
+                  including an executive overview, a demand-forecasting view (93.89%
+                  forecast accuracy), and a store-level action list flagging overstocked
+                  and at-risk products.
+                </p>
+                <div class="tech-stack">
+                  <span>Power BI</span><span>DAX</span><span>Power Query</span><span>Data Analysis</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/rimiya366/Retail-Inventory-Optimization-PowerBI" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-github">
+                    <i class="bi bi-github"></i> View Project on GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/retail-demand-forecasting.png" class="case-study-img" alt="Demand forecasting and supply chain optimization dashboard">
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/retail-store-optimization.png" class="case-study-img" alt="Store and stock optimization operational action list dashboard">
+            </div>
+          </div>
+        </div>
+
+        <!-- CASE STUDY 2: MARKETING -->
+        <div class="case-study-card" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6 order-lg-2">
+              <img src="assets/img/dashboards/marketing-campaign-insights.png" class="case-study-img" alt="Marketing campaign and customer insights dashboard">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="case-study-body">
+                <span class="case-study-category">Marketing Analytics</span>
+                <h3>Marketing Campaign & Sales Analytics Dashboard</h3>
+                <p class="problem-line">
+                  Businesses invest in marketing campaigns but often struggle to connect
+                  campaign performance with leads, sales and revenue.
+                </p>
+                <span class="insight-label">What I Built</span>
+                <p class="insight-text">
+                  A customer and campaign analytics dashboard covering 2K customers and
+                  $1M in total spending, segmented by value and loyalty. It surfaces
+                  response rates by channel and campaign type — as high as 82% for
+                  highly engaged customers — to show where marketing attention pays off.
+                </p>
+                <div class="tech-stack">
+                  <span>Power BI</span><span>Data Visualization</span><span>Business Analytics</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/rimiya366/Marketing-Campaign-Analytics" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-github">
+                    <i class="bi bi-github"></i> View Project on GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CASE STUDY 3: E-COMMERCE -->
+        <div class="case-study-card" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/dashboards/ecommerce-sales-analytics.png" class="case-study-img" alt="E-commerce sales analytics dashboard showing revenue, orders and top customers">
+            </div>
+            <div class="col-lg-6">
+              <div class="case-study-body">
+                <span class="case-study-category">E-commerce Analytics</span>
+                <h3>E-Commerce Sales Analytics Dashboard</h3>
+                <p class="problem-line">
+                  Online sellers need a fast way to see where revenue is coming from —
+                  by customer, region and order status — without digging through
+                  transaction tables.
+                </p>
+                <span class="insight-label">What I Built</span>
+                <p class="insight-text">
+                  A dashboard tracking $592.92K in revenue across 4K orders and 4K
+                  customers, with an average order value of $160.25. It highlights
+                  top-performing states, top customers by revenue, and order status at
+                  a glance.
+                </p>
+                <div class="tech-stack">
+                  <span>Python</span><span>Pandas</span><span>Power BI</span><span>Data Visualization</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/rimiya366/ecommerce-sales-analytics-dashboard" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-github">
+                    <i class="bi bi-github"></i> View Project on GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-cta" data-aos="fade-up">
+          <a href="portfolio.html" class="btn-primary-custom">View All Projects</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         WHO I HELP
+    ========================================================== -->
+
+    <section id="who-i-help" class="section section-alt">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">Who I Help</span>
+          <h2>Businesses I Work Best With</h2>
+          <p class="mx-auto">These are the kinds of businesses my services are built for — not a list of current clients.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="who-card">
+              <i class="bi bi-shop"></i>
+              <h5>Retail Businesses</h5>
+              <p>Track sales, products, inventory and performance.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="who-card">
+              <i class="bi bi-cart3"></i>
+              <h5>E-commerce Businesses</h5>
+              <p>Understand orders, products, customers and revenue.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="who-card">
+              <i class="bi bi-cup-hot"></i>
+              <h5>Restaurants & Cafes</h5>
+              <p>Monitor sales, menu performance and customer trends.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="who-card">
+              <i class="bi bi-megaphone"></i>
+              <h5>Marketing Agencies</h5>
+              <p>Create client reporting dashboards and campaign performance reports.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="who-card">
+              <i class="bi bi-building"></i>
+              <h5>Real Estate Businesses</h5>
+              <p>Track leads, sales activity and performance.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="who-card">
+              <i class="bi bi-briefcase"></i>
+              <h5>Small & Medium Businesses</h5>
+              <p>Turn spreadsheets and operational data into useful management dashboards.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         HOW IT WORKS
+    ========================================================== -->
+
+    <section id="how-it-works" class="section">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">Process</span>
+          <h2>How It Works</h2>
+          <p class="mx-auto">A simple, five-step process from first message to finished dashboard.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg col-md-4 col-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="process-step">
+              <div class="process-number">1</div>
+              <h5>Tell Me What You Need</h5>
+              <p>Tell me what you want to understand or improve.</p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-4 col-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="process-step">
+              <div class="process-number">2</div>
+              <h5>Share Your Data</h5>
+              <p>Share your Excel, CSV or other relevant business data.</p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-4 col-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="process-step">
+              <div class="process-number">3</div>
+              <h5>Data Preparation</h5>
+              <p>I clean, organize and prepare the data for analysis.</p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-4 col-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="process-step">
+              <div class="process-number">4</div>
+              <h5>Dashboard & Insights</h5>
+              <p>I build an easy-to-understand dashboard and identify useful insights.</p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-4 col-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="process-step">
+              <div class="process-number">5</div>
+              <h5>Delivery</h5>
+              <p>You receive the final dashboard/report and a clear explanation of the findings.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="process-cta" data-aos="fade-up">
+          <p>Have data you want to understand?</p>
+          <a href="contact.html" class="btn-primary-custom">Let's Talk</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         WHY WORK WITH ME
+    ========================================================== -->
+
+    <section id="why-me" class="section section-alt">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">Why Work With Me</span>
+          <h2>What You Can Expect</h2>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-card">
+              <i class="bi bi-bullseye"></i>
+              <div>
+                <h5>Business-Focused Analysis</h5>
+                <p>I focus on questions that matter to your business, not just technical analysis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="why-card">
+              <i class="bi bi-eye"></i>
+              <div>
+                <h5>Clear Visual Reporting</h5>
+                <p>Complex data is presented through simple dashboards and understandable KPIs.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="why-card">
+              <i class="bi bi-sliders"></i>
+              <div>
+                <h5>Flexible for Small Businesses</h5>
+                <p>Suitable for one-time dashboard projects or recurring reporting needs.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="why-card">
+              <i class="bi bi-lightbulb"></i>
+              <div>
+                <h5>Practical Insights</h5>
+                <p>The goal is not just to show numbers, but to help you understand what they mean.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="why-card">
+              <i class="bi bi-person-check"></i>
+              <div>
+                <h5>Direct Communication</h5>
+                <p>Work directly with the person analyzing and building your dashboard.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         TOOLS & EXPERTISE
+    ========================================================== -->
+
+    <section id="tools" class="section">
+
+      <div class="container text-center">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">Tools & Expertise</span>
+          <h2>What I Work With</h2>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="100">
+          <div class="tools-label">Primary</div>
+          <div class="mb-4">
+            <span class="tool-pill">Power BI</span>
+            <span class="tool-pill">Excel</span>
+            <span class="tool-pill">SQL</span>
+            <span class="tool-pill">Python</span>
+            <span class="tool-pill">Pandas</span>
+            <span class="tool-pill">Power Query</span>
+            <span class="tool-pill">DAX</span>
+            <span class="tool-pill">Tableau</span>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="150">
+          <div class="tools-label">Additional Technical Expertise</div>
+          <div>
+            <span class="tool-pill secondary">Machine Learning</span>
+            <span class="tool-pill secondary">Generative AI</span>
+            <span class="tool-pill secondary">Streamlit</span>
+            <span class="tool-pill secondary">Scikit-learn</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         ABOUT TEASER
+    ========================================================== -->
+
+    <section id="about" class="section section-alt">
+
+      <div class="container">
+
+        <div class="about-teaser-card" data-aos="fade-up">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h3>I'm Rimiya Rimshi K M</h3>
+              <p>
+                A freelance Data Analyst based in Kannur, Kerala. I specialize in
+                turning raw business data into clear dashboards, reports and
+                actionable insights using Power BI, Excel, SQL and Python — grounded
+                in a BSc in Computer Science and hands-on data analytics experience.
+              </p>
+              <p style="margin-bottom:0;">
+                My goal is simple: make business data easier to understand and
+                easier to act on.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+              <a href="about.html" class="btn-outline-custom" style="color:#fff !important; border-color: rgba(255,255,255,0.35);">More About Me</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FAQ
+    ========================================================== -->
+
+    <section id="faq" class="section">
+
+      <div class="container">
+
+        <div class="section-title text-center mx-auto" data-aos="fade-up">
+          <span class="eyebrow">FAQ</span>
+          <h2>Common Questions</h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+
+            <div class="accordion" id="faqAccordion" data-aos="fade-up">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    Do I need to have a Power BI account?
+                  </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">No — I can build the dashboard and share it with you in a format you can view and use, and we can discuss the best way to deliver it based on your setup.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    What type of data can you analyze?
+                  </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Sales, customer, marketing, inventory and general operational data — most commonly from Excel, CSV files or exports from your existing systems.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Can you work with Excel files?
+                  </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Yes, Excel is one of the most common formats I work with, from cleaning messy sheets to building full reports.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    Can you build a dashboard from my existing report?
+                  </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Yes — share your existing report and I can turn it into an interactive dashboard with clearer visuals and useful filters.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    Can you create monthly reports?
+                  </button>
+                </h2>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Yes, I can set up a recurring monthly reporting process so you get a consistent, decision-ready update each month.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                    Do you work with small businesses?
+                  </button>
+                </h2>
+                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Yes — small and medium businesses are exactly who I built these services for, whether it's a one-time project or ongoing reporting.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                    Can you work remotely?
+                  </button>
+                </h2>
+                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Yes, I work with both local businesses in Kerala and remote clients anywhere.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                    How do I get started?
+                  </button>
+                </h2>
+                <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Send me an email describing what you'd like to understand or improve, and we'll take it from there.</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FINAL CTA
+    ========================================================== -->
+
+    <section class="section section-alt">
+
+      <div class="container">
+
+        <div class="final-cta" data-aos="fade-up">
+          <h3>Have Business Data You Want to Understand?</h3>
+          <p>Let's turn your data into a dashboard you can actually use.</p>
+          <div class="final-cta-buttons">
+            <a href="contact.html" class="btn-cta-primary">Start a Project</a>
+            <a href="mailto:rimiyarimshi2022@gmail.com" class="btn-cta-outline">Email Me</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+  <footer id="footer" class="footer">
+
+    <div class="container text-center py-5">
+
+      <h3 class="sitename">RIMIYA.</h3>
+
+      <p class="mb-3">Data Analytics &bull; Business Intelligence &bull; Freelance Services</p>
+
+      <div class="social-links-custom justify-content-center">
+
+        <a href="https://www.linkedin.com/in/rimiya-rimshi-k-m/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/rimiya366" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="mailto:rimiyarimshi2022@gmail.com" aria-label="Email">
+          <i class="bi bi-envelope"></i>
+        </a>
+
+      </div>
+
+      <div class="copyright mt-4">
+        <span>&copy; 2026</span>
+        <strong class="px-1 sitename">Rimiya Rimshi K M</strong>
+        <span>All Rights Reserved</span>
+      </div>
+
+      <div class="credits mt-2">
+        Template by
+        <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================================
+       SCROLL TOP
+  ========================================================== -->
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+
+  <!-- =========================================================
+       JAVASCRIPT
+  ========================================================== -->
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof AOS !== "undefined") {
+        AOS.init({ duration: 700, once: true });
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>
